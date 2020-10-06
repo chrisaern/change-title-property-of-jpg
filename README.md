@@ -1,4 +1,4 @@
-# change-title-property-of-jpg with Powershell and exiftool
+# Change title-property of jpg with Powershell and exiftool
 Change title property of .jpg images with Powershell and exiftool
 
 The script reads the lines in renameFileTitle.txt to [Array] $arrayFromFile, line by line. Edit <path> to your .txt
