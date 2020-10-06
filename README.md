@@ -10,3 +10,7 @@ Edit <path> on line 7 to the location of exiftool.exe.
 The script will add the first entry in the array on the first image in the folder, then increment the count on the array and perform the same action on the next image, until in finished.
 
 Exiftool also creates a copy of the original image im something were to happen.
+
+I am not the creator of the exiftool.
+You can use Exiftool to read, write and edit meta information!
+Credit to https://exiftool.org/ - ExifTool by Phil Harvey
