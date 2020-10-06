@@ -9,7 +9,7 @@ Get-ChildItem stored in $files. Edit <path> to the folder you will be working wi
   
 Edit <path>\exiftool.exe to the location of exiftool.exe
   
-The script will add the first entry in the array on the first image in the folder, then increment the count on the array and perform the same action on the next image, until in finished.
+The script will add the first entry in the array on the first image in the folder, then increment the count on the array and perform the same action on the next image, until it's finished.
 
 Exiftool also creates a copy of the original image im something were to happen.
 
