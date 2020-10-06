@@ -1,10 +1,10 @@
-[Array] $arrayFromFile = Get-Content -Path 'C:\Users\Christian\Desktop\Bilder\renameFileTitle.txt'
+[Array] $arrayFromFile = Get-Content -Path '<path>'
 $iterator = 0
-$files = Get-ChildItem "C:\Users\Christian\Desktop\Bilder\*.jpg"
+$files = Get-ChildItem "<path>\*.jpg"
 $arrayFromFile[0]
 foreach ($file in $files){
     $i = $arrayFromFile[$iterator]
-    C:\Users\Christian\Desktop\Bilder\exiftool.exe exiftool -Caption-Abstract="$i" $file.FullName
+    <path>\exiftool.exe exiftool -Caption-Abstract="$i" $file.FullName
     $iterator++
     
 }
